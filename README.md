@@ -2,19 +2,6 @@
 
 This is based off the existing DGFraud repository which is a Graph Neural Network (GNN) based toolbox for fraud detection. 
 
-## Citations 
-SIGIR'20 ([PDF](https://arxiv.org/pdf/2005.00625.pdf))
-```bibtex
-@inproceedings{liu2020alleviating,
-  title={Alleviating the Inconsistency Problem of Applying Graph Neural Network to Fraud Detection},
-  author={Liu, Zhiwei and Dou, Yingtong and Yu, Philip S. and Deng, Yutong and Peng, Hao},
-  booktitle={Proceedings of the 43nd International ACM SIGIR Conference on Research and Development in Information Retrieval},
-  year={2020}
-}
-```
-### Algorithms used
-FdGars, GAS, GraphConcis, Player2Vec
-
 
 ## Installation
 ```bash
@@ -45,3 +32,15 @@ The repository is organized as follows:
     * loading and splitting the data (`data_loader.py`);
     * contains various utilities (`utils.py`).
 
+## Citations 
+SIGIR'20 ([PDF](https://arxiv.org/pdf/2005.00625.pdf))
+```bibtex
+@inproceedings{liu2020alleviating,
+  title={Alleviating the Inconsistency Problem of Applying Graph Neural Network to Fraud Detection},
+  author={Liu, Zhiwei and Dou, Yingtong and Yu, Philip S. and Deng, Yutong and Peng, Hao},
+  booktitle={Proceedings of the 43nd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2020}
+}
+```
+### Algorithms used
+FdGars, GAS, GraphConcis, Player2Vec
